@@ -1,0 +1,19 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://www.lds.org/*" ]
+   } ],
+   "description": "Create links to verses and paragraphs on lds.org",
+   "icons": {
+      "128": "Scripture_Bookmark.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhf5B6OC2waOS2+A2ls/v9hki/RJyoXAyA2TZ+7fsFztBbf7H30ZEiV5vJrZdL3rONDARWVrniIzKgwAh/pCg+arCf2NGaOr664zzVfFPCCO8QNgz0YNYRREKMi/VHIqkZzrQuyOc9gK7URl0IkEXhWgn3NWqI3Y8jSCXv8iA5BUstqyooztRL9jWhXInM/+gTE/+HdFyObr8kNoYB4nMHbi5ytBcoky6OI2N2We7TyGUAHZ5WkcfnWjWgjDckpaTC2emw9zO5yDKE1o7z70DFKCK7B/mXmJWWImJvvC1A93ttM5Wg5WUbzP7+qlPx3XBeyKx5zk/r8MogrCgkxJD7wIDAQAB",
+   "manifest_version": 2,
+   "name": "Scripture Links",
+   "permissions": [ "contextMenus", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.0"
+}
